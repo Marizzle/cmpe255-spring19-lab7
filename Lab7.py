@@ -155,11 +155,11 @@ def test():
     poly_clf = polynomial_kernel(X_train, X_test, y_train, y_test)
     plot(poly_clf, "Decision Surface for Polynomial Kernel", X, y)
 
-    print("=====   Polynomial Kernel (Sepal-Width + Sepal-Length)  =====")
+    print("=====   Gaussian Kernel (Sepal-Width + Sepal-Length)  =====")
     gaussian_clf = gaussian_kernel(X_train, X_test, y_train, y_test)
     plot(gaussian_clf, "Decision Surface for Gaussian Kernel", X, y)
 
-    print("=====   Polynomial Kernel (Sepal-Width + Sepal-Length)  =====")
+    print("=====   Sigmoid Kernel (Sepal-Width + Sepal-Length)  =====")
     sigmoid_clf = sigmoid_kernel(X_train, X_test, y_train, y_test)
     plot(sigmoid_clf, "Decision Surface for Sigmoid Kernel", X, y)
 
