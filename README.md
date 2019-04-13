@@ -4,6 +4,8 @@ Contents
 -Lab7.ipynb
 -Lab7.py
 
+-results.txt
+
 -bill_authentication.csv
 -gauss.png
 -poly.png
