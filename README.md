@@ -10,6 +10,13 @@ Contents
 -gauss.png
 -poly.png
 -sig.png
+
+-PolyWidget.py
+-PolyWidget.png
+-GaussWidget.py
+-PolyWidget.png
+-SigmoidWidget.py
+-SigmoidWidget.png
 ```
 
 # Part I
@@ -32,7 +39,7 @@ weighted avg       0.99      0.99      0.99       275
 ```
 
 # Part II
-Output for Kernel, Gaussian, Sigmoid Kernels SVMs with Iris Dataset
+Output for Polynomial, Gaussian, Sigmoid Kernels SVMs with Iris Dataset
 ```
 =====   Polynomial Kernel  =====
 -----   Confusion Matrix   -----
@@ -85,7 +92,7 @@ Iris-versicolor       0.88      0.88      0.88         8
 ```
 
 # Part III
-Plotting Decision Boundaries with Kernel, Gaussian, Sigmoid Kernels but using Sepal-Width and Sepal-Height
+Plotting Decision Boundaries with Polynomial, Gaussian, Sigmoid Kernels but using Sepal-Width and Sepal-Height
 
 Polynomial Kernel
 ```
@@ -150,3 +157,21 @@ weighted avg       0.78      0.77      0.77        30
 
 ```
 ![](sig.png)
+
+# Part IV
+Plotting Decision Boundaries for Polynomial, Gaussian, Sigmoid Kernels using all 4 features with interactive widgets.
+
+Using the sliders one can set the Petal-Length and Petal-Width to a fixed value so that we can plot the Decision Boundaries for the Sepal-Length and Sepal-Width. By fixing the values for 2 dimensions we can then make a 2 dimensional plot.
+
+The different colors are for the different classes
+-- Iris Setosa
+-- Iris Versicolour
+-- Iris Virginica
+
+The following plots were made using PolyWidget.py GaussWidget.py and SigmoidWidget.py
+
+![](PolyWidget.png)
+
+![](GaussWidget.png)
+
+![](SigmoidWidget.png)
